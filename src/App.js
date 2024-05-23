@@ -23,7 +23,7 @@ const City = () => {
             return;
         }
         try {
-            const response = await axios.get('http://127.0.0.1:8080/api/weather', {
+            const response = await axios.get('https://weather-7eoy.onrender.com/api/weather', {
                 params: {
                     city: selectedCity
                 },
